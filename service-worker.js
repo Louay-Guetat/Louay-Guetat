@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Louay-Guetat/precache-manifest.151d743cf4d65a52d8dd988809813cb3.js"
+  "/Louay-Guetat/precache-manifest.fe0d05966fceb7f89c636b6fe7d0a038.js"
 );
 
 self.addEventListener('message', (event) => {
