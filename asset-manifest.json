@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Louay-Guetat/static/css/main.db6f0745.chunk.css",
+    "main.js": "/Louay-Guetat/static/js/main.fd686574.chunk.js",
+    "main.js.map": "/Louay-Guetat/static/js/main.fd686574.chunk.js.map",
+    "runtime-main.js": "/Louay-Guetat/static/js/runtime-main.61a92791.js",
+    "runtime-main.js.map": "/Louay-Guetat/static/js/runtime-main.61a92791.js.map",
+    "static/css/2.d64471e2.chunk.css": "/Louay-Guetat/static/css/2.d64471e2.chunk.css",
+    "static/js/2.1f3d622f.chunk.js": "/Louay-Guetat/static/js/2.1f3d622f.chunk.js",
+    "static/js/2.1f3d622f.chunk.js.map": "/Louay-Guetat/static/js/2.1f3d622f.chunk.js.map",
+    "index.html": "/Louay-Guetat/index.html",
+    "precache-manifest.151d743cf4d65a52d8dd988809813cb3.js": "/Louay-Guetat/precache-manifest.151d743cf4d65a52d8dd988809813cb3.js",
+    "service-worker.js": "/Louay-Guetat/service-worker.js",
+    "static/css/2.d64471e2.chunk.css.map": "/Louay-Guetat/static/css/2.d64471e2.chunk.css.map",
+    "static/css/main.db6f0745.chunk.css.map": "/Louay-Guetat/static/css/main.db6f0745.chunk.css.map",
+    "static/js/2.1f3d622f.chunk.js.LICENSE.txt": "/Louay-Guetat/static/js/2.1f3d622f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.61a92791.js",
+    "static/css/2.d64471e2.chunk.css",
+    "static/js/2.1f3d622f.chunk.js",
+    "static/css/main.db6f0745.chunk.css",
+    "static/js/main.fd686574.chunk.js"
+  ]
+}
