@@ -1,0 +1,118 @@
+{
+  "basic_info": {
+    "description_header": "Salut",
+    "description": "👋 Je suis Guetat Louay. Futur ingénieur data science passionné et motivé, Je possède de solides compétences en analyse statistique, en apprentissage automatique et en programmation. J'ai de l'expérience dans l'exploitation des données pour résoudre des problèmes complexes et optimiser les processus. En outre, J'ai des compétences en développement Web et logiciel qui améliorent encore mes capacités à fournir des solutions percutantes.",
+    "section_name": {
+    "about": "À propos de moi",
+    "projects": "Projets",
+    "skills": "Compétences",
+    "experience": "Expérience"
+    }
+  },
+    "projects": [
+      {
+        "title": "Refuge pour animaux",
+        "startDate": "2020",
+        "description": "L'application la plus étendue sur laquelle j'ai eu l'occasion de travailler. J'ai appris de nombreuses technologies et mon code a été examiné par un conservateur génial. L'application gère tous les processus d'adoption et permet de stocker toutes les preuves d'adoption d'animaux provenant du refuge pour animaux.",
+        "images": [
+          "images/portfolio/animal-shelter/p1.jpg",
+          "images/portfolio/animal-shelter/p2.jpg"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-angularjs-plain",
+            "name": "Angular"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          }
+        ]
+      },
+      {
+        "title": "Photographie",
+        "startDate": "2018",
+        "description": "Projet personnel pour une matière d'étude. J'étais responsable de tester une application de photographie qui optimise les images avec des algorithmes populaires utilisés par des éditeurs graphiques tels que Pixlr ou Adobe Photoshop. J'ai obtenu la note A :)",
+        "images": [
+          "images/portfolio/photography/p1.jpg",
+          "images/portfolio/photography/p2.jpg"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "Visualiseur d'objets 3D",
+        "startDate": "2015",
+        "description": "L'une des premières applications sur lesquelles j'ai travaillé lors de mon stage. J'ai dû développer la mise en œuvre côté front-end d'une application qui affiche des modèles 3D de bâtiments connus. C'était également mon premier projet avec le framework Angular. J'ai beaucoup appris !",
+        "images": [
+        "images/portfolio/adventure/p1.jpg",
+        "images/portfolio/adventure/p2.jpg"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-angularjs-plain",
+            "name": "Angular"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "DefOpenSource",
+        "title": "Développeur Front-End",
+        "years": "10.2019 - présent",
+        "mainTech": [
+          "Angular 8/9/10"
+        ],
+        "technologies": [
+          "REST API",
+          "RxJS",
+          "JavaScript",
+          "Bootstrap",
+          "MDBootstrap",
+          "EF Core",
+          ".NET Core",
+          "SignalR",
+          "Angular Material"
+        ]
+      },
+      {
+        "company": "Serros Solutions",
+        "title": "Stagiaire",
+        "years": "01.2018 - 09.2019",
+        "mainTech": [
+          "Angular 7/8"
+        ],
+        "technologies": [
+          "RxJS",
+          "Django",
+          "PHP",
+          "JavaScript",
+          "DHTMLX Gantt"
+        ]
+      }
+    ]
+  }
