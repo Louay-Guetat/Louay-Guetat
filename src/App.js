@@ -126,7 +126,10 @@ class App extends Component {
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
         <Skills
-          sharedSkills={this.state.sharedData.skills}
+          languages={this.state.sharedData.languages}
+          frameworks={this.state.sharedData.frameworks}
+          databases={this.state.sharedData.databases}
+          language = {document.documentElement.lang}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
         <Experience

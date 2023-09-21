@@ -26,7 +26,7 @@
       ],
       "image": "Louay.jpg"
     },
-    "skills": {
+    "languages": {
       "icons": [
         {
           "name": "HTML 5",
@@ -41,7 +41,7 @@
         {
           "name": "JavaScript",
           "class": "devicon-javascript-plain",
-          "level": "70"
+          "level": "80"
         },
         {
           "name": "Bootstrap",
@@ -51,12 +51,12 @@
         {
           "name": "Java",
           "class": "devicon-java-plain",
-          "level": "85"
+          "level": "95"
         },
         {
           "name": "Python",
           "class": "devicon-python-plain",
-          "level": "85"
+          "level": "95"
         },
         {
           "name": "C#",
@@ -64,33 +64,66 @@
           "level": "65"
         },
         {
+          "name": "C",
+          "class": "devicon-c-plain",
+          "level": "75"
+        }
+      ]
+    },
+    "frameworks" :{
+      "icons":[
+        {
           "name": "React.JS",
           "class": "devicon-react-plain",
-          "level": "90"
+          "level": "95"
+        },
+        {
+          "name": "Angular",
+          "class": "devicon-angularjs-plain",
+          "level": "60"
         },
         {
           "name": "Django",
           "class": "devicon-django-plain",
-          "level": "90"
+          "level": "95"
+        },
+        {
+          "name": "Spring",
+          "class": "devicon-spring-plain",
+          "level": "80"
         },
         {
           "name": "Node.JS",
           "class": "devicon-nodejs-plain",
-          "level": "90"
+          "level": "75"
         },
+        {
+            "name": "Symfony",
+            "class": "devicon-symfony-plain",
+            "level": "80"
+        },
+        {
+            "name": ".Net",
+            "class": "devicon-dotnetcore-plain",
+            "level": "50"
+        }
+      ]
+    },
+    "databases" :{
+      "icons":[
         {
           "name": "MySql",
           "class": "devicon-mysql-plain",
-          "level": "60"
+          "level": "95"
         },
         {
           "name": "MongoDB",
           "class": "devicon-mongodb-plain",
-          "level": "90"
+          "level": "95"
         },{
           "name": "PostgreSQL",
           "class": "devicon-postgresql-plain",
-          "level": "90"
+          "level": "95"
         }
       ]
     }
