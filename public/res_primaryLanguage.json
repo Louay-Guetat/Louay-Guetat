@@ -81,37 +81,48 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "We TekUP",
+        "title": "Engineering internship",
+        "years": "10 July 2023 - 10 September 2023",
         "mainTech": [
-          "Angular 8/9/10"
+          "ReactJS and Django"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
+          "ReactJs",
+          "Django",
+          "RestAPI",
           "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "HTML5",
+          "CSS3",
+          "PostgreSQL"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "E-Build",
+        "title": "Company immersion internship",
+        "years": "15 July 2022 - 15 September 2023",
         "mainTech": [
-          "Angular 7/8"
+          "ReactJS and NodeJs"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
+          "ReactJs",
+          "NodeJs",
           "JavaScript",
-          "DHTMLX Gantt"
+          "HTML5",
+          "CSS3",
+          "MySQL"
+        ]
+      },
+      {
+        "company": "Office of Civil Aviation and Airports",
+        "title": "End of Study Project Internship",
+        "years": "February 2021 - May 2021",
+        "mainTech": [
+          "Java"
+        ],
+        "technologies": [
+          "Java",
+          "Javax"
         ]
       }
     ]
