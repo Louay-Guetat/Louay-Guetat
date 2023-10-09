@@ -11,26 +11,32 @@
   },
     "projects": [
       {
-        "title": "Refuge pour animaux",
-        "startDate": "2020",
-        "description": "L'application la plus étendue sur laquelle j'ai eu l'occasion de travailler. J'ai appris de nombreuses technologies et mon code a été examiné par un conservateur génial. L'application gère tous les processus d'adoption et permet de stocker toutes les preuves d'adoption d'animaux provenant du refuge pour animaux.",
+        "title": "Khedma.Site",
+        "startDate": "2023",
+        "description": "Une solution dont nous sommes particulièrement fiers. Il s'agit d'une plateforme en ligne dédiée aux emplois à court et moyen terme en Tunisie, offrant des opportunités tant pour les candidats avec expérience que pour ceux qui sont novices dans le domaine. Notre objectif est de fournir une plateforme conviviale et intuitive où les chercheurs d'emploi peuvent trouver des opportunités correspondant à leurs compétences et à leurs besoins.",
         "images": [
-          "/images/portfolio/animal-shelter/p1.jpg",
-          "/images/portfolio/animal-shelter/p2.jpg"
+          "/images/portfolio/animal-shelter/p1.png",
+          "/images/portfolio/animal-shelter/p2.png",
+          "/images/portfolio/animal-shelter/p3.png",
+          "/images/portfolio/animal-shelter/p4.png",
+          "/images/portfolio/animal-shelter/p5.png",
+          "/images/portfolio/animal-shelter/p6.png",
+          "/images/portfolio/animal-shelter/p7.png",
+          "/images/portfolio/animal-shelter/p8.png"
         ],
         "url": "",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-react-plain",
+            "name": "ReactJS"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-django-plain",
+            "name": "Django"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-postgresql-plain",
+            "name": "PostgreSQL"
           }
         ]
       }
