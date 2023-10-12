@@ -15,14 +15,14 @@
         "startDate": "2023",
         "description": "Une solution dont nous sommes particulièrement fiers. Il s'agit d'une plateforme en ligne dédiée aux emplois à court et moyen terme en Tunisie, offrant des opportunités tant pour les candidats avec expérience que pour ceux qui sont novices dans le domaine. Notre objectif est de fournir une plateforme conviviale et intuitive où les chercheurs d'emploi peuvent trouver des opportunités correspondant à leurs compétences et à leurs besoins.",
         "images": [
-          "/images/portfolio/animal-shelter/p1.png",
-          "/images/portfolio/animal-shelter/p2.png",
-          "/images/portfolio/animal-shelter/p3.png",
-          "/images/portfolio/animal-shelter/p4.png",
-          "/images/portfolio/animal-shelter/p5.png",
-          "/images/portfolio/animal-shelter/p6.png",
-          "/images/portfolio/animal-shelter/p7.png",
-          "/images/portfolio/animal-shelter/p8.png"
+          "/images/portfolio/Khedma.site/p1.png",
+          "/images/portfolio/Khedma.site/p2.png",
+          "/images/portfolio/Khedma.site/p3.png",
+          "/images/portfolio/Khedma.site/p4.png",
+          "/images/portfolio/Khedma.site/p5.png",
+          "/images/portfolio/Khedma.site/p6.png",
+          "/images/portfolio/Khedma.site/p7.png",
+          "/images/portfolio/Khedma.site/p8.png"
         ],
         "url": "",
         "technologies": [
@@ -37,6 +37,46 @@
           {
             "class": "devicon-postgresql-plain",
             "name": "PostgreSQL"
+          }
+        ]
+      },
+      {
+        "title": "PreSkool",
+        "startDate": "2022",
+        "description": "Une plateforme web conçue pour rationaliser les opérations des établissements éducatifs, y compris les écoles et les centres de formation, en facilitant une coordination fluide entre les enseignants et les étudiants. Elle sert de centralisé pour la gestion des données essentielles de tous les membres tout en favorisant une communication efficace entre les étudiants, les enseignants et les administrateurs.",
+        "images": [
+          "/images/portfolio/E-Build/p13.png",
+          "/images/portfolio/E-Build/p17.png",
+          "/images/portfolio/E-Build/p15.png",
+          "/images/portfolio/E-Build/p18.png",
+          "/images/portfolio/E-Build/p16.png",
+          "/images/portfolio/E-Build/p1.png",
+          "/images/portfolio/E-Build/p2.png",
+          "/images/portfolio/E-Build/p3.png",
+          "/images/portfolio/E-Build/p4.png",
+          "/images/portfolio/E-Build/p5.png",
+          "/images/portfolio/E-Build/p6.png",
+          "/images/portfolio/E-Build/p7.png",
+          "/images/portfolio/E-Build/p8.png",
+          "/images/portfolio/E-Build/p9.png",
+          "/images/portfolio/E-Build/p10.png",
+          "/images/portfolio/E-Build/p11.png",
+          "/images/portfolio/E-Build/p12.png",
+          "/images/portfolio/E-Build/p14.png",
+          "/images/portfolio/E-Build/p15.png",
+          "/images/portfolio/E-Build/p16.png",
+          "/images/portfolio/E-Build/p17.png",
+          "/images/portfolio/E-Build/p18.png"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-react-plain",
+            "name": "ReactJS"
+          },
+          {
+            "class": "devicon-mysql-plain",
+            "name": "MySQL"
           }
         ]
       }

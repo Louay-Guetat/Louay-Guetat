@@ -15,14 +15,14 @@
         "startDate": "2023",
         "description": "An online platform dedicated to short and medium-term jobs in Tunisia, offering opportunities for both experienced candidates and those who are newcomers to the field. Our goal is to provide a user-friendly and intuitive platform where job seekers can find opportunities that match their skills and needs.",
         "images": [
-          "/images/portfolio/animal-shelter/p1.png",
-          "/images/portfolio/animal-shelter/p2.png",
-          "/images/portfolio/animal-shelter/p3.png",
-          "/images/portfolio/animal-shelter/p4.png",
-          "/images/portfolio/animal-shelter/p5.png",
-          "/images/portfolio/animal-shelter/p6.png",
-          "/images/portfolio/animal-shelter/p7.png",
-          "/images/portfolio/animal-shelter/p8.png"
+          "/images/portfolio/Khedma.site/p1.png",
+          "/images/portfolio/Khedma.site/p2.png",
+          "/images/portfolio/Khedma.site/p3.png",
+          "/images/portfolio/Khedma.site/p4.png",
+          "/images/portfolio/Khedma.site/p5.png",
+          "/images/portfolio/Khedma.site/p6.png",
+          "/images/portfolio/Khedma.site/p7.png",
+          "/images/portfolio/Khedma.site/p8.png"
         ],
         "url": "",
         "technologies": [
@@ -37,6 +37,46 @@
           {
             "class": "devicon-postgresql-plain",
             "name": "PostgreSQL"
+          }
+        ]
+      },
+      {
+        "title": "PreSkool",
+        "startDate": "2022",
+        "description": "A web platform designed to streamline the operations of educational institutions, including schools and training centers, by facilitating seamless coordination between teachers and students. It serves as a centralized hub for managing crucial data for all members while promoting efficient communication among students, teachers, and administrators.",
+        "images": [
+          "/images/portfolio/E-Build/p13.png",
+          "/images/portfolio/E-Build/p17.png",
+          "/images/portfolio/E-Build/p15.png",
+          "/images/portfolio/E-Build/p18.png",
+          "/images/portfolio/E-Build/p16.png",
+          "/images/portfolio/E-Build/p1.png",
+          "/images/portfolio/E-Build/p2.png",
+          "/images/portfolio/E-Build/p3.png",
+          "/images/portfolio/E-Build/p4.png",
+          "/images/portfolio/E-Build/p5.png",
+          "/images/portfolio/E-Build/p6.png",
+          "/images/portfolio/E-Build/p7.png",
+          "/images/portfolio/E-Build/p8.png",
+          "/images/portfolio/E-Build/p9.png",
+          "/images/portfolio/E-Build/p10.png",
+          "/images/portfolio/E-Build/p11.png",
+          "/images/portfolio/E-Build/p12.png",
+          "/images/portfolio/E-Build/p14.png",
+          "/images/portfolio/E-Build/p15.png",
+          "/images/portfolio/E-Build/p16.png",
+          "/images/portfolio/E-Build/p17.png",
+          "/images/portfolio/E-Build/p18.png"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-react-plain",
+            "name": "ReactJS"
+          },
+          {
+            "class": "devicon-mysql-plain",
+            "name": "MySQL"
           }
         ]
       }
