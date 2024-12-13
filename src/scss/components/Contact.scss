@@ -1,0 +1,182 @@
+@import '../variables';
+
+.contact-container {
+    position: relative;
+
+    .map {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        border: none;
+
+        .leaflet-control-attribution{
+            display: none;
+        }
+    }
+
+    .contact-modal {
+        position: absolute;
+        top: 20%;
+        right: 5%;
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 20px 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        width: 17.5%;
+        z-index: 1000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        p {
+            margin: 10px 0;
+            font-size: 14px;
+            text-align: left;
+            color: white;  
+            a {
+                color: $blue-color;
+                text-decoration: underline;
+            }
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 10px;
+            width: 75%;
+
+            a {
+                text-decoration: none;
+                padding: 10px 15px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 14px;
+                text-align: center;
+                transition: background-color 0.3s;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                svg{
+                    margin-right: 5px;
+                    font-size: 21px;
+                }
+                &.github-btn {
+                    background-color: $gray;
+
+                    &:hover {
+                        background-color: #0d4fbd;
+                    }
+                }
+
+                &.linkedin-btn {
+                    background-color: #0077B5;
+
+                    &:hover {
+                        background-color: #c2366f;
+                    }
+                }
+
+                &.whatsapp-btn {
+                    background-color: #075E54;
+
+                    &:hover {
+                        background-color: #0000d1;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px){
+    .contact-container {
+        position: relative;
+        width: 100%;
+        .map {
+            position: relative;
+            border: none;
+            height: 100%;
+            width: 100%;
+        }
+    
+        .contact-modal {
+            position: absolute;
+            top: 1%;
+            right: 1%;
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 20px 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            width: 60%;
+            z-index: 1000;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+    
+            p {
+                margin: 5px 0;
+                font-size: 12px;
+                text-align: center;
+    
+                a {
+                    color: $blue-color;
+                    text-decoration: underline;
+                }
+            }
+    
+            .buttons {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                margin-top: 10px;
+                width: 75%;
+    
+                a {
+                    text-decoration: none;
+                    padding: 10px 15px;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    font-size: 14px;
+                    text-align: center;
+                    transition: background-color 0.3s;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    svg{
+                        margin-right: 5px;
+                        font-size: 21px;
+                    }
+                    &.github-btn {
+                        background-color: #333;
+    
+                        &:hover {
+                            background-color: #0d4fbd;
+                        }
+                    }
+    
+                    &.linkedin-btn {
+                        background-color: #0077B5;
+    
+                        &:hover {
+                            background-color: #c2366f;
+                        }
+                    }
+    
+                    &.whatsapp-btn {
+                        background-color: #075E54;
+    
+                        &:hover {
+                            background-color: #0000d1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

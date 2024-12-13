@@ -1,0 +1,127 @@
+@import '../variables';
+
+.Navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .section{
+        font-size: 55px;
+        font-weight: 900;
+        cursor: pointer;
+        position: relative;
+        
+        &::before{
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -25%);
+            width: 110%;
+            height: 15px;
+            opacity: 0;
+            background-color: $blue-color;
+        }
+        &.is-active::before{
+            opacity: 1
+        }
+    }
+
+    .navbar-utils{
+        display: flex;
+        align-items: center;
+        margin-top: 10%;
+        gap: 30px;
+        
+        button{
+            display: flex;
+            align-items: center;
+            background-color: transparent;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            svg{
+                font-size: 48px;
+            }
+        }
+
+        .navbar-languages{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            .language-text{
+                color: $text-color;
+                font-weight: bold;
+                font-size: 16px;
+                margin-left: 25%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width :768px){
+    .Navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .section{
+            font-size: 38px;
+            font-weight: 900;
+            cursor: pointer;
+            position: relative;
+            
+            &::before{
+                content: "";
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -25%);
+                width: 110%;
+                height: 15px;
+                opacity: 0;
+                background-color: $blue-color;
+            }
+            &.is-active::before{
+                opacity: 1
+            }
+        }
+    
+        .navbar-utils{
+            display: flex;
+            align-items: center;
+            margin-top: 10%;
+            gap: 30px;
+            
+            button{
+                display: flex;
+                align-items: center;
+                background-color: transparent;
+                border: none;
+                padding: 10px;
+                cursor: pointer;
+                svg{
+                    font-size: 48px;
+                }
+            }
+    
+            .navbar-languages{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+    
+                .language-text{
+                    color: $text-color;
+                    font-weight: bold;
+                    font-size: 14px;
+                    margin-left: 25%;
+                }
+            }
+        }
+    }
+}

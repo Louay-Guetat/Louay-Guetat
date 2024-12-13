@@ -1,0 +1,9 @@
+:root {
+    --background-color: #fff; // Default (light theme)
+    --text-color: #000; // Default (light theme)
+}
+
+.dark-mode {
+    --background-color: #000;
+    --text-color: #fff;
+}

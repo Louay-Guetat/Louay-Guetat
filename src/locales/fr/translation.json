@@ -1,0 +1,264 @@
+{
+    "general": {
+        "name" : "Louay Guetat",
+        "sections" : ["Accueil", "Compétences", "Projets", "Contact", "Engagez-nous"],
+        "titles" : ["Ingénieur Full Stack", "Scientifique de Données", "Analyste de Données"],
+        "hireus" : "Engagez-nous",
+        "aboutmeSections" :["A propos de Moi", "Education", "Experience"],
+        "aboutme": [
+            "Je suis Louay Guetat, un ingénieur Full Stack passionnée avec une solide formation en ingénierie informatique et une spécialisation en science des données.",
+            "J'excelle dans la création d'applications web robustes et conviviales, combinant harmonieusement le développement front-end et back-end avec une gestion efficace des bases de données et l'intégration d'API.",
+            "Mon expérience couvre des fonctionnalités basées sur les données, l'analyse statistique, l'apprentissage automatique et le traitement du langage naturel, ce qui me permet de fournir des solutions innovantes adaptées à des défis complexes.",
+            "Je m'épanouis dans des environnements dynamiques, cherchant constamment à apprendre et à évoluer, et je suis dédiée à apporter créativité et efficacité à chaque projet que j'entreprends."
+        ],
+        "adress": "278, Rue Beb Saadoune, Tunisie",
+        "coordonates": [
+            36.80772,
+            10.16119
+        ],
+        "email_esprit": "louay.guetat@esprit.tn",
+        "email_perso": "louay.guetat1@gmail.com",
+        "phone": "+216 55 160 398",
+        "whatsapp": "+21655160398",
+        "linkedin": "https://www.linkedin.com/in/guetat-louay",
+        "github": "https://github.com/Louay-Guetat"
+    },
+    "educations": [
+      {
+        "title": "Cycle Ingénieur en Informatique",
+        "location": "Esprit",
+        "datetime": "13 septembre 2021 – 27 novembre 2024"
+      },
+      {
+        "title": "Licence en Informatique",
+        "location": "ESSECT",
+        "datetime": "17 septembre 2018 - 5 juillet 2021"
+      },
+      {
+        "title": "Baccalauréat en Mathématiques",
+        "location": "Rue Pacha",
+        "datetime": "12 septembre 2013 - 27 juin 2018"
+      }
+    ],
+    "experiences": [
+        {
+            "title": "Stagiaire en Science des Données",
+            "location": "Sagemcom",
+            "datetime": "6 février 2024 – 31 août 2024",
+            "description": "Développement d'une solution basée sur les données avec des capacités complètes de bout en bout. Acquisition de connaissances métier pour orienter les objectifs du projet, utilisation d'outils de scraping (Selenium et BeautifulSoup) pour collecter des ensembles de données complets et implémentation de la génération augmentée par récupération (RAG) pour un indexage et une récupération efficaces des données. Intégration de modèles pré-entraînés HuggingFace avec LangChain et création d'un système multi-agents avancé à l'aide de LangGraph. Conception et développement d'une application web réactive avec ReactJS, connectée de manière fluide à un backend Flask via des API RESTful pour garantir une communication et une fonctionnalité robustes."
+        },
+        {
+            "title": "Stagiaire Full Stack",
+            "location": "We Tekup",
+            "datetime": "6 juillet 2023 – 6 septembre 2023",
+            "description": "Développement d'une plateforme d'emploi conviviale avec ReactJS, simplifiant les candidatures pour les employeurs et les chercheurs. Création d'API avec Django et gestion de la base de données avec PostgreSQL."
+        },
+        {
+            "title": "Stagiaire Développeuse Front-End",
+            "location": "E-Build",
+            "datetime": "5 juillet 2022 – 5 septembre 2022"
+        },
+        {
+            "title": "Stagiaire Développeuse Logicielle",
+            "location": "OACA",
+            "datetime": "6 février 2021 – 6 juin 2021",
+            "description": "Développement d'un logiciel en Java pour optimiser la gestion et le suivi du marché. Conception de l'application JavaX et création de diagrammes UML pour soutenir la structure et les fonctionnalités du projet."
+        }
+    ],
+    "skills": [
+        {
+            "category": "Languages",
+            "icons": [
+                { "name": "HTML5", "component": "Html5Original" },
+                { "name": "CSS3", "component": "Css3Original" },
+                { "name": "SASS", "component": "SassOriginal"},
+                { "name": "JavaScript", "component": "JavascriptOriginal" },
+                { "name": "PHP", "component": "PhpOriginal"},
+                { "name": "Java", "component": "JavaOriginal" },
+                { "name": "C", "component": "COriginal" },
+                { "name": "C#", "component": "CsharpOriginal" },
+                { "name": "Python", "component": "PythonOriginal" },
+                { "name": "R", "component": "ROriginal" }
+            ]
+        },
+        {
+            "category": "Frameworks",
+            "icons": [
+                { "name": "ReactJS", "component": "ReactOriginal" },
+                { "name": "AngularJS", "component": "AngularOriginal" },
+                { "name": "NextJS", "component": "NextjsOriginal" },
+                { "name": "NodeJS", "component": "NodejsOriginal" },
+                { "name": "ExpressJS", "component": "ExpressOriginalWordmark" },
+                { "name": "SpringBoot", "component": "SpringOriginal" },
+                { "name": "Django", "component": "DjangorestOriginal" },
+                { "name": "Flask", "component": "FlaskOriginal" },
+                { "name": "Symfony", "component": "SymfonyOriginal" }
+            ]
+        },
+        {
+            "category": "Bases de Données",
+            "icons": [
+                { "name": "MySQL", "component": "MysqlOriginal" },
+                { "name": "PostgreSQL", "component": "PostgresqlOriginal" },
+                { "name": "MongoDB", "component": "MongodbOriginal" },
+                { "name": "Firebase", "component": "FirebaseOriginal" }
+            ]
+        },
+        {
+            "category": "Bibliothéque de Science de données",
+            "icons": [
+                { "name": "Numpy", "component": "NumpyOriginal" },
+                { "name": "Pandas", "component": "PandasOriginal" },
+                { "name": "Matplotlib", "component": "MatplotlibOriginal" },
+                { "name": "Keras", "component": "KerasOriginalWordmark" },
+                { "name": "Scikit Learn", "component": "ScikitlearnOriginal" },
+                { "name": "Pytorch", "component": "PytorchOriginal" },
+                { "name": "TensorFlow", "component": "TensorflowOriginal" }
+            ]
+        },
+        {
+            "category": "Outils et Environnements",
+            "icons": [
+                { "name": "Anaconda", "component": "AnacondaOriginal" },
+                { "name": "Visual Studio Code", "component": "VscodeOriginal" },
+                { "name": "Windows", "component": "Windows11Original" },
+                { "name": "Linux", "component": "LinuxOriginal" },
+                { "name": "Arch Linux", "component": "ArchlinuxOriginal" },
+                { "name": "Ubuntu", "component": "UbuntuPlainWordmark" },
+                { "name": "Git CLI", "component": "GitOriginal" },
+                { "name": "Github", "component": "GithubOriginal" },
+                { "name": "SSH", "component": "SshOriginalWordmark" }, 
+                { "name": "JSON", "component": "JsonOriginal"}
+            ]
+        },
+        {
+            "category": "Compétences en DevOps et Cloud",
+            "icons": [
+                { "name": "Docker", "component": "DockerOriginal" },
+                { "name": "Kubernetes", "component": "KubernetesOriginal" },
+                { "name": "Azure", "component": "AzureOriginal" },
+                { "name": "Jenkins", "component": "JenkinsOriginal" }
+            ]
+        }
+    ],
+    "JobCategories" : {
+        "Développement Full Stack": [
+            "Développement d'applications web",
+            "Développement Front-End",
+            "Développement Back-End",
+            "Développement Full Stack",
+            "Développement d'applications mobiles",
+            "Gestion des bases de données",
+            "Développement et intégration d'API"
+        ],
+        "Apprentissage Automatique & IA": [
+            "Développement de modèles d'apprentissage automatique",
+            "Applications de l'apprentissage profond",
+            "Traitement du langage naturel"
+        ],
+        "Analyse et Visualisation de Données": [
+            "Visualisation des données",
+            "Nettoyage et prétraitement des données"
+        ]
+    },
+    "works" : 
+    [
+        {
+            "title": "EduMemes",
+            "picture": "../images/works/edumemes.png",
+            "description": "Une application éducative innovante conçue pour rendre l'apprentissage amusant et engageant en utilisant des mèmes et des montages vidéo pour présenter les informations de manière créative.",
+            "github_repo": "",
+            "deployment_url": "https://edu.memes.tn",
+            "tech": ["ReactJS", "NodeJS", "ExpressJS", "MySQL"],
+            "status" : "Projet Personnel"
+        },
+        {
+            "title": "Khedma.Site",
+            "picture": "../images/works/khedmasite.png",
+            "description": "Développement d'une plateforme d'emploi conviviale avec ReactJS, simplifiant les candidatures pour les employeurs et les chercheurs. Création d'API avec Django et gestion de la base de données avec PostgreSQL.",
+            "github_repo": "",
+            "deployment_url": "https://khedma.site/",
+            "tech": ["ReactJS", "NodeJS", "ExpressJS", "PostgreSQL"],
+            "status" : "Stage"
+        },
+        {
+            "title": "SianaTech",
+            "picture": "../images/works/sianatech.png",
+            "description": "Développement d'un site vitrine pour SIANATECH en utilisant ReactJS, mettant en valeur leurs solutions techniques innovantes et leurs services adaptés aux industries, hôtels et divers secteurs. Le site met efficacement en avant leur expertise en maintenance technique et en gestion des installations.",
+            "github_repo": "",
+            "deployment_url": "https://www.sianatech.com/",
+            "tech": ["ReactJS"],
+            "status" : "Freelance"
+        },
+        {
+            "title": "EsaElectronique",
+            "picture": "../images/works/esaelectronique.png",
+            "description": "Développement d'un site vitrine pour ESA Électronique en utilisant ReactJS, présentant efficacement leur leadership sur le marché mauritanien des appareils électroménagers, des systèmes électroniques et des solutions d'énergie solaire. Le site met en avant leur large gamme de produits, leurs prix compétitifs et leur engagement pour une livraison rapide et une couverture locale du marché.",
+            "github_repo": "",
+            "deployment_url": "https://www.esaelectronique.com/",
+            "tech": ["ReactJS"],
+            "status" : "Freelance"
+        },
+        {
+            "title": "CarthageBet",
+            "picture": "../images/works/carthagebet.png",
+            "description": "Développement d'une application web avec ReactJS et NodeJS pour gérer les transactions des utilisateurs, y compris le financement des comptes, et création d'un tableau de bord administratif pour le suivi des partenaires, leurs transactions et les soldes des portefeuilles.",
+            "github_repo": "https://github.com/Louay-Guetat/CarthageBet",
+            "deployment_url": "",
+            "tech": ["ReactJS", "NodeJS", "ExpressJS"],
+            "status" : "Freelance"
+        },
+        {
+            "title": "Classification de Yoga",
+            "picture": "../images/works/yoga.jpg",
+            "description": "Co-développement d'un modèle pour la classification des poses de yoga en utilisant des architectures CNN ; un CNN entraîné a atteint une précision de 86 % et ResNet a atteint une précision de 97 %.",
+            "github_repo": "https://github.com/Louay-Guetat/Yoga-classifcation",
+            "deployment_url": "",
+            "tech": ["Django", "Numpy", "Pandas"],
+            "status" : "Projet Éducatif"
+        },
+        {
+            "title": "Intellectia",
+            "picture": "../images/works/intellectia.png",
+            "description": "Co-développement d'une plateforme éducative qui transforme les problèmes mathématiques textuels en visuels attrayants en utilisant des modèles pré-entraînés HuggingFace, avec un tableau de bord convivial et des quiz interactifs pour permettre aux enfants d'évaluer et d'améliorer leurs compétences en mathématiques.",
+            "github_repo": "https://github.com/Louay-Guetat/Educational-Interactive-Intelligent-Platform",
+            "deployment_url": "",
+            "tech": ["ReactJS", "Django", "MongoDB", "Numpy", "Pandas", "TensorFlow"],
+            "status" : "Projet Éducatif"
+        },
+        {
+            "title": "Recommandation PMBOK",
+            "picture": "../images/works/pmbok.png",
+            "description": "Co-développement d'un système prédictif sous forme de chatbot pour créer des recommandations sur la gestion des risques basé sur les données de la 11ème édition du PMBOK en utilisant une architecture GAT GNN, Bert embedder et NLP.",
+            "github_repo": "https://github.com/Louay-Guetat/Risk-Management-Recommendation-System",
+            "deployment_url": "",
+            "tech": ["Django", "Numpy", "Pandas", "TensorFlow"],
+            "status" : "Projet Éducatif"
+        },
+        {
+            "title": "Chatbot Intelligent",
+            "picture": "../images/works/chatbot.png",
+            "description": "Développement d'une application web réactive avec ReactJS et un backend Flask, intégrant des modèles HuggingFace via LangChain et LangGraph. Utilisation de RAG pour la récupération des données, d'outils de scraping pour collecter des ensembles de données et d'API RESTful pour une communication fluide entre le front-end et le back-end.",
+            "github_repo": "",
+            "deployment_url": "",
+            "tech": ["ReactJS", "Flask", "MySQL", "Pandas", "Pytorch"],
+            "status" : "Stage"
+        }
+    ],
+    "HireUs": {
+        "title" : "Ce que vous souhaitez que nous fassions",
+        "name" : "Particulier/Entreprise",
+        "email" : "E-mail",
+        "phone" : "Numéro de téléphone (ex. : +1234567890)",
+        "send" : "Envoyer la demande",
+        "reset" : "Réinitialiser",
+        "emailError" : "Adresse e-mail invalide",
+        "phoneError" : "Le numéro de téléphone doit inclure un indicatif de pays valide (ex. : +1234567890)"
+
+    },
+    "languages": [
+        { "code": "en", "label": "Anglais" },
+        { "code": "fr", "label": "Français" },
+        { "code": "ar", "label": "Arabe" }
+    ]
+}

@@ -1,0 +1,214 @@
+@import '../variables';
+
+.workCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .current-work-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 75%;
+        .image-container {
+            border-radius: 50%;
+            aspect-ratio: 1;
+            overflow: hidden;
+            width: 100%;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+
+        .title {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            
+            h1 {
+                font-size: 32px;
+                text-align: center;
+                margin: 1% 0;
+                display: flex;
+            }
+    
+            a, .private {
+                margin: 0% 2.5%;
+                color: #f8f9fa;
+                text-decoration: none;
+                cursor: pointer;
+    
+                svg {
+                    font-size: 21px;
+                }
+            }
+
+            .private{
+                background-color: transparent;
+                border: none;
+            }
+        }
+    
+        span {
+            font-size: 16px;
+            text-align: center;
+            width: 100%;
+        }
+    
+        .tech-used {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 2.5%;
+            width: 100%;
+            overflow-x: hidden; /* This can remain if you want to hide overflow in parent */
+            scroll-behavior: smooth;
+        
+            .tech-icons {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                white-space: nowrap; /* Prevent items from wrapping to the next line */
+                gap: 20px;
+                width: fit-content;
+                background-color: $skills-container;
+                padding: 2.5% 5%;
+                border-radius: 20px;
+                overflow-x: auto; /* Enables horizontal scrolling */
+                scroll-behavior: smooth;
+        
+                div {
+                    margin: 0;
+                }
+            }    
+        }         
+    }
+    
+    .not-current-work-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        .image-container-not-current {
+            border-radius: 50%;
+            width: 50%;
+            aspect-ratio: 1;
+            overflow: hidden;
+    
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+
+        .title {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            
+            h1 {
+                font-size: 22px;
+                text-align: center;
+                margin: 1% 0;
+                display: flex;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px){
+    .workCard {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        .current-work-card{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            .image-container {
+                border-radius: 50%;
+                aspect-ratio: 1;
+                overflow: hidden;
+                width: 100%;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+    
+            .title {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                
+                h1 {
+                    font-size: 21px;
+                    text-align: center;
+                    margin: 1% 0;
+                    display: flex;
+                }
+        
+                a {
+                    margin: 0% 2.5%;
+                    color: $skills-container;
+                    text-decoration: none;
+                    cursor: pointer;
+        
+                    svg {
+                        font-size: 21px;
+                    }
+                }
+            }
+        
+            span {
+                font-size: 13px;
+                line-height: 1.5;
+                text-align: center;
+                width: 100%;
+            }
+        
+            .tech-used {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 2.5%;
+                width: 100%;
+                overflow-x: hidden;
+                scroll-behavior: smooth;
+            
+                .tech-icons {
+                    z-index: 999;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    white-space: nowrap;
+                    gap: 20px;
+                    width: fit-content;
+                    background-color: $skills-container;
+                    padding: 7.5% 5%;
+                    border-radius: 20px;
+                    overflow-x: auto; 
+                    scroll-behavior: smooth;
+            
+                    div {
+                        margin: 0;
+                    }
+                }    
+            }                 
+        }
+    }
+}

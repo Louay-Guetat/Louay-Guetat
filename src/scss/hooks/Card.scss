@@ -1,0 +1,130 @@
+@import '../variables';
+
+.card {
+    flex: 0 0 calc((100% - 3 * 13.80%) / 2);
+    height: 200px;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 2%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    background-color: $blue-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    
+    .experience-card, .education-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        max-height: 200px;
+        overflow-y: auto;
+        padding-right: 5px;
+
+        h3 {
+            margin: 0;
+            font-size: 21px;
+        }
+    
+        .details {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            .location-details {
+                font-size: 16px;
+                font-weight: bold;
+                &::before{
+                    content: '@';        
+                }
+            }
+    
+            .datetime-details {
+                font-size: 14px;
+            }
+        }
+
+        .work-description{
+            margin-top: 2.5%;
+            font-size: 15px;
+            line-height: 1.5;
+        }
+    
+        &:first-child{
+            margin-left: 0;
+        }
+    
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .card {
+        flex: 0 0 100%;
+        width: 95%;
+        height: 200px;
+        border-radius: 20px;
+        padding: 20px;
+        margin: 2%;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+        background-color: $blue-color;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        box-sizing: border-box;
+        
+        .experience-card, .education-card{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            max-height: 200px;
+            overflow-y: auto;
+            padding-right: 5px;
+    
+            h3 {
+                margin: 0;
+                font-size: 21px;
+            }
+        
+            .details {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 5px 0px 5px 0px;
+        
+                .location-details {
+                    font-size: 12px;
+                }
+
+                .datetime-details {
+                    margin-top: 2.5%;
+                    font-size: 12px;
+                }
+            }
+    
+            .work-description{
+                margin-top: 2.5%;
+                font-size: 15px;
+                line-height: 1.5;
+            }
+        
+            &:first-child{
+                margin-left: 0;
+            }
+        
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+        
+    }
+}
