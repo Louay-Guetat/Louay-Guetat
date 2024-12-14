@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Louay-Guetat/static/css/main.21557cd0.css",
+    "main.js": "/Louay-Guetat/static/js/main.2a80e701.js",
+    "static/js/453.26de2e92.chunk.js": "/Louay-Guetat/static/js/453.26de2e92.chunk.js",
+    "static/media/carthagebet.png": "/Louay-Guetat/static/media/carthagebet.6585c22a074fa537d117.png",
+    "static/media/esaelectronique.png": "/Louay-Guetat/static/media/esaelectronique.3f527a5cd5fccb51141c.png",
+    "static/media/khedmasite.png": "/Louay-Guetat/static/media/khedmasite.f85cc89d18717ff285b1.png",
+    "static/media/sianatech.png": "/Louay-Guetat/static/media/sianatech.8f0ce3e00fed5cdc3133.png",
+    "static/media/edumemes.png": "/Louay-Guetat/static/media/edumemes.82b76c0b909f6da25056.png",
+    "static/media/Louay.png": "/Louay-Guetat/static/media/Louay.835769804f92ca4ea5a9.png",
+    "static/media/chatbot.png": "/Louay-Guetat/static/media/chatbot.60552d5d072d62eb8454.png",
+    "static/media/pmbok.png": "/Louay-Guetat/static/media/pmbok.ac0c77cbbc5d6caedb64.png",
+    "static/media/intellectia.png": "/Louay-Guetat/static/media/intellectia.d7f531dfa3a5cc867c22.png",
+    "static/media/yoga.jpg": "/Louay-Guetat/static/media/yoga.310bee698cadb2ae620b.jpg",
+    "static/media/logo.svg": "/Louay-Guetat/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Louay-Guetat/index.html",
+    "static/media/marker.svg": "/Louay-Guetat/static/media/marker.b8c8e7f79eef3db2a77d40228f805a96.svg",
+    "main.21557cd0.css.map": "/Louay-Guetat/static/css/main.21557cd0.css.map",
+    "main.2a80e701.js.map": "/Louay-Guetat/static/js/main.2a80e701.js.map",
+    "453.26de2e92.chunk.js.map": "/Louay-Guetat/static/js/453.26de2e92.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21557cd0.css",
+    "static/js/main.2a80e701.js"
+  ]
+}

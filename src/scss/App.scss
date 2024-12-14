@@ -46,7 +46,6 @@
       justify-content: space-between;
       align-items: center;
       padding: 10px 20px;
-      border-bottom: 1px solid #333;
       width: 90%;
   
       img {
@@ -259,8 +258,10 @@
           display: flex;
           flex-direction: column;
           align-items: center;
-          justify-content: center;
+          justify-content: flex-start;
           width: 100%;
+          min-height: 100vh;
+          width: 100%;  
         }
       }
     }

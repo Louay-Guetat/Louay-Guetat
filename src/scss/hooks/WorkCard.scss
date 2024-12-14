@@ -66,20 +66,20 @@
             justify-content: center;
             margin-top: 2.5%;
             width: 100%;
-            overflow-x: hidden; /* This can remain if you want to hide overflow in parent */
+            overflow-x: hidden;
             scroll-behavior: smooth;
         
             .tech-icons {
                 display: flex;
                 align-items: center;
                 justify-content: flex-start;
-                white-space: nowrap; /* Prevent items from wrapping to the next line */
+                white-space: nowrap;
                 gap: 20px;
                 width: fit-content;
                 background-color: $skills-container;
                 padding: 2.5% 5%;
                 border-radius: 20px;
-                overflow-x: auto; /* Enables horizontal scrolling */
+                overflow-x: auto;
                 scroll-behavior: smooth;
         
                 div {
@@ -199,7 +199,7 @@
                     gap: 20px;
                     width: fit-content;
                     background-color: $skills-container;
-                    padding: 7.5% 5%;
+                    padding: 5%;
                     border-radius: 20px;
                     overflow-x: auto; 
                     scroll-behavior: smooth;
