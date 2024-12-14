@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Louay-Guetat/static/css/main.70ea85d2.css",
+    "main.css": "/Louay-Guetat/static/css/main.b468f7ec.css",
     "main.js": "/Louay-Guetat/static/js/main.f9e59d19.js",
     "static/js/453.26de2e92.chunk.js": "/Louay-Guetat/static/js/453.26de2e92.chunk.js",
     "static/media/carthagebet.png": "/Louay-Guetat/static/media/carthagebet.6585c22a074fa537d117.png",
@@ -16,12 +16,12 @@
     "static/media/logo.svg": "/Louay-Guetat/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Louay-Guetat/index.html",
     "static/media/marker.svg": "/Louay-Guetat/static/media/marker.b8c8e7f79eef3db2a77d40228f805a96.svg",
-    "main.70ea85d2.css.map": "/Louay-Guetat/static/css/main.70ea85d2.css.map",
+    "main.b468f7ec.css.map": "/Louay-Guetat/static/css/main.b468f7ec.css.map",
     "main.f9e59d19.js.map": "/Louay-Guetat/static/js/main.f9e59d19.js.map",
     "453.26de2e92.chunk.js.map": "/Louay-Guetat/static/js/453.26de2e92.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.70ea85d2.css",
+    "static/css/main.b468f7ec.css",
     "static/js/main.f9e59d19.js"
   ]
 }
